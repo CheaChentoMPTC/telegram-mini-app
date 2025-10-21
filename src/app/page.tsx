@@ -95,6 +95,8 @@ export default function Home() {
             display: "grid",
             gridTemplateColumns: "repeat(2, 1fr)",
             gap: "12px",
+            height: "100%",
+            minHeight: "100%",
             padding: "16px",
           }}
         >
@@ -113,7 +115,7 @@ export default function Home() {
                   <div
                     style={{
                       width: "100%",
-                      height: "150px",
+                      height: "110px",
                       backgroundColor: "var(--tg-theme-secondary-bg-color)",
                       borderRadius: "8px",
                       marginBottom: "8px",
